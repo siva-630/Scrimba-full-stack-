@@ -1,7 +1,7 @@
 const button = document.getElementById("increment-btn");
-
-
-function a() {
-
+let count = 0;
+function a(){
+    console.log(count);
+    count = count+1;
     
 }
